@@ -1,0 +1,62 @@
+
+// C++ code 
+// Iván sacks Dojo D EJ/Dojo_Uno
+// Definimos variables
+# define Buzzer 7
+# define Rojo 13
+# define Verde 12
+# define Amarillo 11
+# define Rojo2 10
+# define Amarillo2 9
+# define Verde2 8
+# define TiempoRojo 5000
+# define TiempoVerde 3000
+# define TiempoAmarillo 5000
+int tiempo;
+int led;
+void setup()
+{
+  pinMode(Verde, OUTPUT);
+  pinMode(Rojo,OUTPUT);
+  pinMode(Amarillo,OUTPUT);
+  pinMode(Amarillo2,OUTPUT);
+  pinMode(Verde2, OUTPUT);
+  pinMode(Rojo2,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+ // Ponemos parámetros de tiempo de cada led
+  // Verde
+  PrenderApagar(Verde,TiempoRojo);
+  //Amarillo	
+  PrenderApagar(Amarillo,TiempoAmarillo);
+  //Rojo
+  PrenderApagar(Rojo,TiempoRojo);
+  
+}
+void PrenderApagar(int led , int tiempo)//Prende y apaga las led
+{
+  if (led != Rojo && led != Rojo2 )
+  {
+  digitalWrite(led, HIGH);
+  delay(tiempo);
+  digitalWrite(led, LOW); 
+  }
+  else// Si es rojo, se ejecuta y suena el buzzer
+  {
+    digitalWrite(led, HIGH);
+    tone(Buzzer, 100, 1000);
+    delay(1000);
+    noTone(Buzzer);
+    delay(1000);
+    tone(Buzzer, 100, 1000);
+    delay(tiempo);
+    digitalWrite(led, LOW); 
+  }
+}
+
+
+
+
