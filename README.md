@@ -1,51 +1,40 @@
 # Dojo-D
-# Ejemplo Documentación Dojos
-![Tinkercad](./img/ArduinoTinkercad.jpg)
-
-
 ## Integrantes 
-- Esteban Marcelo Quiroz  
-
-
-## Proyecto: Contador binario.
-![Tinkercad](./img/ContadorBinario.png)
-
+- Thiago Rodriguez
+- Belen Soria
+- Franco Sodia
+- Iván Sacks
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando cada led y cuando llega a la led roja se produce un sonido
 
 ## Función principal
-Esta funcion se encarga de encender y apagar los leds.
+Esta funcion se encarga de encender y apagar los leds, y si se enciende la led roja , suena un sonido dos veces en un segundo.
 
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-(Breve explicación de la función)
+Verde,Rojo y Amarillo son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
 
 ~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+void PrenderApagar(int led , int tiempo)//Prende y apaga las led
 {
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
+  if (led != Rojo && led != Rojo2 )
+  {
+  digitalWrite(led, HIGH);
+  delay(tiempo);
+  digitalWrite(led, LOW); 
+  }
+  else// Si es rojo, se ejecuta y suena el buzzer
+  {
+    digitalWrite(led, HIGH);
+    tone(Buzzer, 100, 1000);
+    delay(100);
+    noTone(Buzzer);
+    delay(100);
+    tone(Buzzer, 100, 1000);
+    delay(tiempo);
+    digitalWrite(led, LOW); 
+  }
 }
+
 ~~~
-
-## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/aOYiibnDjWu)
-## :tv: Link al video del proceso
-- [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
-
----
-### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
-
-- [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-- [Tutorial](https://www.youtube.com/watch?v=oxaH9CFpeEE).
-
-- [Emojis](https://gist.github.com/rxaviers/7360908).
-
----
+  Link al proyecto: 
+  https://www.tinkercad.com/things/0UM3ZlFqdpF-ivan-sacks-dojo-d-ejdojouno/editel?sharecode=t2-icXHy_uBGoIYf1aFnwEec6A11fBIYcaKNgTn3M8s
