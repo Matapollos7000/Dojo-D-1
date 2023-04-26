@@ -2,7 +2,7 @@
 ## Integrantes 
 - Thiago Rodriguez
 - Belen Soria
-- Franco Solia
+- Franco Sofia
 - Iván Sacks
 - Melina Silva
 
@@ -47,4 +47,4 @@ void PrenderApagar(int led , int tiempo)//Prende y apaga las led
   
   Melina Silva: https://www.tinkercad.com/things/hGqbTTxUfho-silva-diana-melina-dojo-1er-entrega/editel?sharecode=diDpH0etaLIy7b9uQ6Pxcf6Gd4nUVIl9WMyQGoO1VQw
   
-  Franco Solia:https://www.tinkercad.com/things/cADprBpRUZb-copy-of-dojo-d-ejercicio-02-franco-sofia/editel?sharecode=s49qYkW5lOgLgG1-rdUSvXFMocdVisnxHcHN4Yv2QlY
+  Franco Sofia:https://www.tinkercad.com/things/cADprBpRUZb-copy-of-dojo-d-ejercicio-02-franco-sofia/editel?sharecode=s49qYkW5lOgLgG1-rdUSvXFMocdVisnxHcHN4Yv2QlY
