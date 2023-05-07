@@ -7,34 +7,7 @@
 - Melina Silva
 
 ## Descripción
-Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando cada led y cuando llega a la led roja se produce un sonido
-
-## Función principal
-Esta funcion se encarga de encender y apagar los leds, y si se enciende la led roja , suena un sonido dos veces en un segundo.
-
-Verde,Rojo y Amarillo son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-~~~ C (lenguaje en el que esta escrito)
-void PrenderApagar(int led , int tiempo)//Prende y apaga las led
-{
-  if (led != Rojo && led != Rojo2 )
-  {
-  digitalWrite(led, HIGH);
-  delay(tiempo);
-  digitalWrite(led, LOW); 
-  }
-  else// Si es rojo, se ejecuta y suena el buzzer
-  {
-    digitalWrite(led, HIGH);
-    tone(Buzzer, 100, 1000);
-    delay(100);
-    noTone(Buzzer);
-    delay(100);
-    tone(Buzzer, 100, 1000);
-    delay(tiempo);
-    digitalWrite(led, LOW); 
-  }
-}
+Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando , titilando 3 veces antes de pasar al otro color , y haciendo ruidos cuando está en amarillo y rojo
 
 ~~~
   Links al proyecto:
