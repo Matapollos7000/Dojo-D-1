@@ -31,4 +31,4 @@ Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando , titi
   
   Melina Silva: https://www.tinkercad.com/things/hGqbTTxUfho-silva-diana-melina-dojo-1er-entrega/editel?sharecode=diDpH0etaLIy7b9uQ6Pxcf6Gd4nUVIl9WMyQGoO1VQw
   
-  Franco Sofia:https://www.tinkercad.com/things/6wStTXB6nNT-ivan-sacks-div-d-ej4-2/editel?sharecode=VWPJpexxfSKh436LX5TZCP-yLGsugeopHFiuMWFlgFM
+  Franco Sofia:https://www.tinkercad.com/things/6s5M8m5FxDc-copy-of-dojo-d-ejercicio-02-franco-sofia/editel?sharecode=FXjhoH82igXUJB7aCQC95aXAd4CDrPa2xdhEm2jtWgo
