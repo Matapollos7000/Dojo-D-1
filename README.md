@@ -23,7 +23,7 @@ Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando , titi
   Franco Sofia:https://www.tinkercad.com/things/cADprBpRUZb-copy-of-dojo-d-ejercicio-02-franco-sofia/editel?sharecode=s49qYkW5lOgLgG1-rdUSvXFMocdVisnxHcHN4Yv2QlY
 
   Ejercicio 2:
-  Iván Sacks: https://www.tinkercad.com/things/6wStTXB6nNT-ivan-sacks-div-d-ej4-2/editel?sharecode=VWPJpexxfSKh436LX5TZCP-yLGsugeopHFiuMWFlgFM
+  Iván Sacks: https://www.tinkercad.com/things/kvZvP1zrmdb-ivan-sacks-dojo-d-ej2dojouno/editel?sharecode=FvJYjORmQpISy3dMQHERxsrFIkP-lHxH9M1NDHK18Qk
    
   Belen Soria: https://www.tinkercad.com/things/8tWmp2zrRWh-1d-dojo-d-ej-n2-soria-belen-2023-/editel?sharecode=rj9r6KzD5s8BTPdEhZ9x-ikRTFsV3yeYuETHGC3VyZU
   
