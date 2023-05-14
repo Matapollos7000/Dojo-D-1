@@ -1,0 +1,146 @@
+// C++ code
+//
+# define pulsador 9
+# define ledRojo 13
+# define ledAmarillo1 12
+# define ledAmarillo2 11
+# define ledAmarillo3 10
+# define displayG 5
+# define displayF 6
+# define displayA 7
+# define displayB 8
+# define displayC A1
+# define displayD A2
+# define displayE A3
+# define Buzzer A0
+void setup()
+{
+  pinMode(ledRojo,OUTPUT);
+  pinMode(ledAmarillo1,OUTPUT); 
+  pinMode(ledAmarillo2,OUTPUT); 
+  pinMode(ledAmarillo3,OUTPUT); 
+  pinMode(displayG,OUTPUT);
+  pinMode(displayF,OUTPUT);
+  pinMode(displayA,OUTPUT);
+  pinMode(displayB,OUTPUT);
+  pinMode(displayC,OUTPUT); 
+  pinMode(displayD,OUTPUT); 
+  pinMode(displayE,OUTPUT);
+  pinMode(pulsador,INPUT_PULLUP);
+  Serial.begin(9600);
+}
+int estado;
+void loop()
+{
+  estado = digitalRead(pulsador);
+  if (estado == 0)
+  {
+    constitucion();
+    buzzerFuerte(Buzzer);
+    sanJuan();
+    buzzerMuyFuerte(Buzzer);
+	independencia();
+    buzzerSuave(Buzzer);
+	moreno();
+    buzzerSuave(Buzzer);
+    independencia();
+    buzzerMuyFuerte(Buzzer);
+    sanJuan();
+    buzzerFuerte(Buzzer);
+    constitucion();
+  }
+}
+ void apagaPrende (int led)
+ {
+    digitalWrite(led, HIGH);
+    delay(3000);
+    digitalWrite(led, LOW);
+    delay(3000); 
+ }
+void prende(int segmento)
+{
+    digitalWrite(segmento, HIGH);
+    
+}
+void apaga(int segmento)
+{
+    digitalWrite(segmento, LOW);
+   
+}	
+void buzzerFuerte(int buzzer)
+{
+    digitalWrite(buzzer, HIGH);
+    delay(500);
+    tone(Buzzer, 500, 1000);
+    digitalWrite(buzzer, LOW); 
+}
+void buzzerSuave(int buzzer)
+{
+    digitalWrite(buzzer, HIGH);
+    delay(500);
+    tone(Buzzer, 1000, 1000);
+    digitalWrite(buzzer, LOW); 
+}
+void buzzerMuyFuerte(int buzzer)
+{
+    digitalWrite(buzzer, HIGH);
+    delay(500);
+    tone(Buzzer, 100, 1000);
+    digitalWrite(buzzer, LOW); 
+}
+void constitucion()
+{
+  Serial.println("Usted se encuentra en Constitucion");
+    prende(displayA);
+      prende(displayB);
+      prende(displayC);
+      prende(displayD);
+      prende(displayE);
+      prende(displayF);
+    apagaPrende(ledRojo);   
+      apaga(displayA);
+      apaga(displayB);
+      apaga(displayC);
+      apaga(displayD);
+      apaga(displayE);
+      apaga(displayF);
+}
+void sanJuan()
+{
+  Serial.println("Usted se encuentra en San Juan");
+   prende(displayC);
+    prende(displayB);
+    apagaPrende(ledAmarillo1);
+    apaga(displayC);
+    apaga(displayB);
+}
+void independencia()
+{
+  Serial.println("Usted se encuentra en Independencia");
+    prende(displayA);
+    prende(displayB);
+    prende(displayG);
+    prende(displayD);
+    prende(displayE);
+    apagaPrende(ledAmarillo2);
+    apaga(displayA);
+    apaga(displayB);
+    apaga(displayG);
+    apaga(displayD);
+    apaga(displayE);
+}
+void moreno()
+{
+  Serial.println("Usted se encuentra en Moreno");
+    prende(displayA);
+    prende(displayB);
+    prende(displayG);
+    prende(displayD);
+    prende(displayC);
+    apagaPrende(ledAmarillo3);
+    apaga(displayA);
+    apaga(displayB);
+    apaga(displayG);
+    apaga(displayD);
+    apaga(displayC);
+}
