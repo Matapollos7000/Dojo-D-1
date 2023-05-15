@@ -7,7 +7,7 @@
 - R.I.P Melina Silva Siempre te recordaremos 😔
 
 # Ejemplo Documentación 
-![Tinkercad](.Dojo-D-1/imagen.jpg)
+![Tinkercad](.img/imagen.jpg)
 
 
 ## Descripción
