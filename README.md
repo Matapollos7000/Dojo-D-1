@@ -5,9 +5,9 @@
 - Franco Sofia
 - Iván Sacks
 - R.I.P Melina Silva Siempre te recordaremos 😔
-- 
+
 # Ejemplo Documentación 
-![Tinkercad](.img/imagen.jpg)
+![Tinkercad](.Dojo-D-1/imagen.jpg)
 
 
 ## Descripción
