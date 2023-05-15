@@ -6,7 +6,7 @@
 - Iván Sacks
 - R.I.P Melina Silva Siempre te recordaremos 😔
 
-# Ejemplo Documentación 
+# Proyecto: Semaforo para gente ciega!!
 ![Tinkercad](./img/imagen.jpg)
 
 
