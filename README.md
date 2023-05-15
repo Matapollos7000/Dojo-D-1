@@ -11,7 +11,7 @@
 Nuestro proyecto cumple la función de un semaforo, prendiendo y apagando , titilando 3 veces antes de pasar al otro color , y haciendo ruidos cuando está en amarillo y rojo
 
 # Ejemplo Documentación 
-![Tinkercad](D:\SPD\Imagen.jpg)
+![Tinkercad](.\SPD\Imagen.jpg)
 ~~~
   Links al proyecto:
   Ejercicio 1:
