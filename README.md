@@ -4,7 +4,7 @@
 - Belen Soria
 - Franco Sofia
 - Iván Sacks
-- Melina Silva
+- R.I.P Melina Silva Siempre te recordaremos 😔
 
 
 ## Descripción
