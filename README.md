@@ -79,7 +79,7 @@ void prenderApagar(int led , int tiempo)
    
   Iván Sacks: https://www.tinkercad.com/things/0Lj1zFJznHd-ivan-sacks-dojo-d-ej3dojouno/editel?sharecode=fY1kJMpDqGoj8c3uDOqDfa6-XRFZToHtnDw2Az7gTX8
    
-  Belen Soria: 
+  Belen Soria: https://www.tinkercad.com/things/8wTiuYKUPQa-dojo-d-ejercicio-03-franco-sofia/editel?sharecode=1S6-n7Oast0jZLrtovg34BKY_gjic5SmJO-DsaHVObM 
   
   Thiago Rodriguez:
   
